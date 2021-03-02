@@ -1,0 +1,151 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  
+    
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+
+
+.logo img {
+	width: 16% !important;
+	margin-right: 5px;
+	margin-top: 20px;
+}
+
+.aboutme-image img {
+	width: 100% !important;
+}
+    
+.menu_area .menu_bottom .mainmenu a, .navbar-default .navbar-nav > li > a {
+	padding-top: 16px!important;
+	padding-bottom: 7px!important;
+	
+}   
+    
+.contact-page-icon i.fa {
+	background: #01284F;
+	width: 100px !important;
+	height: 100px !important;
+	font-size: 40px !important;
+	line-height: 100px !important;
+	
+}
+ 
+ 
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+    
+.name {
+	margin-right: 5px !important;
+	margin-top: 8px !important;
+}
+    
+    
+.hader-social a {
+	margin-right: 2px !important;
+}
+    
+    .logo img {
+	margin-right: 12px !important;
+}
+    
+/*=============== Menu css  start============*/
+.menu-section {
+	position: relative !important;
+}
+.menu_area .menu_bottom .mainmenu a, .navbar-default .navbar-nav > li > a {
+	padding-top: 17px!important;
+	padding-bottom: 7px!important;
+}
+    
+
+.sticky {
+    position: relative;
+    
+}
+    .aboutme-image{
+        text-align: center !important;
+    }
+.aboutme-image img {
+	width: 86% !important;
+}
+.aboutme-section {
+	padding-top: 50px !important;
+	padding-bottom: 77px !important;
+}
+
+ .write {
+	font-size: 30px !important;
+}   
+
+.about-btn ul li {
+	margin-bottom: 10px !important;
+}
+    
+.photo-content {
+	column-count: 2 !important;
+}
+    
+.cat-content {
+	column-count: 1 !important;
+}
+
+.news-content {
+	column-count: 1 !important;
+}
+
+/*=============== Menu css End============*/
+    
+
+  
+.copy-right {
+	text-align: center!important;
+}
+    
+
+
+    
+    
+}
+
+
+
+
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+	.navbar-toggle {
+		margin-top: -56px !important;
+	}
+			
+	.name {
+		margin-right: 33px !important;
+		margin-top: 5px !important;
+	}
+			
+	.cat-content {
+		column-count: 2 !important;
+	}
+	.news-content {
+		column-count: 2 !important;
+	}
+
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    padding-left: 15px;
+	}
+	.archive-page-content {
+    column-count: 2;
+	}
+}
+
+
+@media only screen and (max-width: 479px) {
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    padding-left: 15px;
+	}
+	.archive-page-content {
+    column-count: 1;
+	}
+ }
